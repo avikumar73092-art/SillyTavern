@@ -118,7 +118,7 @@
     "version": "1.18.0",
     "scripts": {
         "init": "node src/server-init.js",
-        "start": "node server.js",
+        "start": "node server.js --listen",
         "debug": "node --inspect server.js",
         "start:global": "node server.js --global",
         "start:electron": "cd ./src/electron && npm run start",
